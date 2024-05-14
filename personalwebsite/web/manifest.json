@@ -1,6 +1,6 @@
 {
-    "name": "personalwebsite",
-    "short_name": "personalwebsite",
+    "name": "personalwebpage",
+    "short_name": "personalwebpage",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

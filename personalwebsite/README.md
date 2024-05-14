@@ -1,3 +1,3 @@
-# personalwebsite
+# personalwebpage
 
 A new Flutter project.
