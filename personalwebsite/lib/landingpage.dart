@@ -93,13 +93,41 @@ class _LandingPageState extends State<LandingPage> {
             ),
             const SizedBox(height: 30),
             Row(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                SizedBox(
+                Container(
+                  decoration: BoxDecoration(          
+                    color: Colors.white
+                  ),
                   child: Column(
                     children: <Widget>[
                       Image.asset("assets/profile.png", height: 100),
                       const Text("This project is meant to showcase some of my cool things")
-                    
+
+                    ]
+                  ),
+                ),
+                Container(
+                  decoration: BoxDecoration(          
+                    color: Colors.white
+                  ),
+                  child: Column(
+                    children: <Widget>[
+                      Image.asset("assets/profile.png", height: 100),
+                      const Text("This project is meant to showcase some of my cool things PT2")
+
+                    ]
+                  ),
+                ),
+                Container(
+                  decoration: BoxDecoration(          
+                    color: Colors.white
+                  ),
+                  child: Column(
+                    children: <Widget>[
+                      Image.asset("assets/profile.png", height: 100),
+                      const Text("This project is meant to showcase some of my cool things P2 3")
+
                     ]
                   ),
                 )
