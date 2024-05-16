@@ -113,7 +113,8 @@ class _LandingPageState extends State<LandingPage> {
                     
                     child: Column(
                     children: <Widget>[
-                      Image.asset("assets/profile.png", height: 200),
+
+                      Image.asset("assets/profile.png", height: 300),
                       const Text("This project is meant to showcase some of my cool things")
 
                     ]
@@ -151,6 +152,7 @@ class _LandingPageState extends State<LandingPage> {
           ],
         )
       )
+      
     );
   }  
 }
