@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'card.dart';
 
 class TestPage extends StatefulWidget{
   const TestPage({super.key});
@@ -98,20 +99,8 @@ class TestPageState extends State<TestPage>{
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                Container(
-                  decoration: BoxDecoration(          
-                    color: Colors.white
-                  ),
-                    
-                    child: Column(
-                    children: <Widget>[
-
-                      Image.asset("assets/profile.png", height: 300),
-                      const Text("This project is meant to showcase some of my cool things")
-
-                    ]
-                  ),
-                ),
+                
+                ImageCard("HIHIHI", "Hello"),
                 // Container(
                 //   decoration: BoxDecoration(          
                 //     color: Colors.white
